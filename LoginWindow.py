@@ -18,9 +18,8 @@ class LoginWindow(Gtk.Dialog):
         finally:
             self.studId.set_markup("<span font='19' font-weight='bold'>Welcome:</span> <span font='20'>"+str(self.studentId)+"</span>")
             GPIO.cleanup()
-            timer = threading.Timer(2.0, self.close)
+            timer = threading.Timer(2.0, self.destroy)
             timer.start()
-
 
     def __init__(self, parent):
         Gtk.Dialog.__init__(self, "Please Log In")
