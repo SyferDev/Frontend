@@ -1,6 +1,6 @@
 # Frontend
 
-All the code written by a grade 10 student.
+For capstone project.
 
 # Install Instructions
 just wait. still dont know how to publish exe for unix
